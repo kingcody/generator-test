@@ -1,0 +1,38 @@
+{
+  "name": "generator-test",
+  "version": "0.0.0",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/kingcody/generator-test",
+  "bugs": "https://github.com/kingcody/generator-test/issues",
+  "author": {
+    "name": "Cody Mize",
+    "email": "me@codymize.com",
+    "url": "https://github.com/kingcody"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kingcody/generator-test.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.20.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
