@@ -22,7 +22,7 @@ TestGenerator.prototype.prompting = function askFor() {
   var prompts = [{
     name: 'initialOption',
     message: 'What is your initial option?',
-    default: 'initial option',
+    default: 'my initial option',
     when: function() {return !self.options.initialOption;}
   }];
 
@@ -42,5 +42,5 @@ TestGenerator.prototype.prompting = function askFor() {
 };
 
 TestGenerator.prototype.default = function app() {
-  this.log('running initial gen');
+  this.log('running initial gen with ' + this.initialOption);
 };

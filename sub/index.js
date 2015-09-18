@@ -32,5 +32,5 @@ SubGenerator.prototype.prompting = function askFor() {
 };
 
 SubGenerator.prototype.default = function app() {
-  this.log('running sub gen');
+  this.log('running sub gen with ' + this.subOption);
 };
